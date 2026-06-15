@@ -197,6 +197,7 @@ header{
     gap: 98px;
     margin: 0 auto;
     width: 1050px;
+    padding-bottom: 76px;
 }
 .blue{
     background-color: #2947A9;
@@ -210,6 +211,48 @@ header{
 .icons-desc{
     font-size: 20px;
 }
-.lastbox{
-    margin-bottom: 76px;
+.section5{
+    display: flex;
 }
+.projects{
+    width: 361px;
+    margin: 221px 371px 105px 212px;
+    box-shadow: 4px 4px 50px #1118270D ;
+}
+.buisness{
+    width: 333px;
+    margin: 0 0 87px 216px;
+    box-shadow: 4px 4px 20px #1118270D ;
+}
+.numbers{
+    padding: 30px 0 2px 30px;
+    font-size: 72px;
+}
+.years{
+    padding: 0 0 30px 46px;
+    color: #667299;
+    
+}
+.section5-title{
+    margin: 172px  137px 40px 0;
+    font-size: 60px;
+    width: 359px;
+}
+.section5-paragraph{
+    color:#525B7A;
+    font-size: 20px;
+    width: 330px;
+    margin-bottom: 67px;
+}
+.contact-button{
+    padding: 16px 39px;
+    background-color: #2947A9;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
