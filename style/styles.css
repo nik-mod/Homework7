@@ -82,3 +82,38 @@ header{
 .leftright{
     display: flex;
 }
+.reputation{
+    margin: 60px 0 50px;
+    text-align: center;
+    font-size: 36px;
+}
+.bestflex{
+    display: flex;
+    justify-content: center;
+    gap: 66px;
+
+
+}
+.best{
+    width: 292px;
+    height: 197px;
+    border: 1.4px solid  #E0E3EB;
+    align-items: center;
+    margin-bottom: 84px;
+
+}
+.headset{
+    font-size: 36.666664123535156px;
+    padding: 21.67px 0px 19.67px 21.67px;
+}
+.pencil{
+    font-size: 32.63333511352539px;
+    padding: 21.67px 0px 19.67px 21.67px;
+}
+.reputation-title{
+    padding: 0 144px 18px 20px;
+}
+.reputation-paragraph{
+    padding: 0 18px 0 20px;
+    width: 254px;
+}
