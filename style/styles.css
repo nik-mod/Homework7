@@ -125,12 +125,13 @@ header{
 }
 .section3-photo{
     position: relative;
+    margin: 0 auto;
 }
 .box{
     position: absolute;
     background-color: #2947A9;
     width: 488px;
-    top: 147px;
+    top: 110px;
     left: 840px;
     color: white;
 }
@@ -162,4 +163,53 @@ header{
     border: none;
     border-radius: 6px;
     margin: 0 229px 60px 40px ;
+}
+.section4{
+    background-color: #F6F8F7;
+}
+.icons{
+    display: block;
+    margin-bottom: 20px;
+}
+.line{
+    margin-bottom: 20px;
+}
+.minibox{
+    width: 271px;
+    border-radius: 4px;
+    height: 181px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section4-title{
+    text-align: center;
+    padding: 44px 0 36px;
+    font-size: 36px;
+}
+.bigdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 98px;
+    margin: 0 auto;
+    width: 1050px;
+}
+.blue{
+    background-color: #2947A9;
+}
+.bluecolor{
+    color: #2947A9;
+}
+.whitecolor{
+    color: white;
+}
+.icons-desc{
+    font-size: 20px;
+}
+.lastbox{
+    margin-bottom: 76px;
 }
