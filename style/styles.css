@@ -24,6 +24,9 @@ header{
     color: #37393F;
     font-size: 18px;
 }
+.orange a{
+    color: #F9995D;
+}
 .nav-ul{
     display: flex;
     gap: 50px;  
@@ -77,10 +80,15 @@ header{
     height: 39.999984741211186px;
     background-color: #292E3D;
     color:white;
-    
 }
 .leftright{
     display: flex;
+}
+.left-icon{
+    margin-right: 2px;
+}
+.right-icon{
+    margin-left: 2px;
 }
 .reputation{
     margin: 60px 0 50px;
@@ -91,8 +99,6 @@ header{
     display: flex;
     justify-content: center;
     gap: 66px;
-
-
 }
 .best{
     width: 292px;
@@ -111,9 +117,49 @@ header{
     padding: 21.67px 0px 19.67px 21.67px;
 }
 .reputation-title{
-    padding: 0 144px 18px 20px;
+    margin: 0 144px 18px 20px;
 }
 .reputation-paragraph{
-    padding: 0 18px 0 20px;
+    margin: 0 18px 0 20px;
     width: 254px;
+}
+.section3-photo{
+    position: relative;
+}
+.box{
+    position: absolute;
+    background-color: #2947A9;
+    width: 488px;
+    top: 147px;
+    left: 840px;
+    color: white;
+}
+.manphoto{
+    width: 902px;
+    height: 669px;
+    margin:0 0 202px 114px;
+}
+.section3-title{
+    font-size: 36px;
+    padding: 50px 289px 37px 40px;
+}
+.section3-firstparagraph{
+    width: 388px;
+    text-align: left;
+    font-size: 20px;
+    margin: 0 60px 20px 40px;
+}
+.section3-secondparagraph{
+    width: 388px;
+    text-align: left;
+    font-size: 20px;
+    margin: 0 60px 74px 40px;
+}
+.more-button{
+    padding: 16px 20px;
+    color: #2947A9;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    margin: 0 229px 60px 40px ;
 }
