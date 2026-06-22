@@ -294,6 +294,25 @@ font-size: 36px;
 .flexbox{
     display: flex;
 }
+.section7-title{
+    margin: 0 0 40px 112px;
+}
+.last-navigation{
+    margin: 0 0 0 112px;
+}
+.section7{
+    display: flex;
+}
+.lastbihbox{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.middle{
+    vertical-align: middle;
+}
 
 
 
