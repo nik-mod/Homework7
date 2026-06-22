@@ -261,13 +261,6 @@ header{
     position: absolute;
     top: 0;
     left: 0;
-    color: white;
-}
-
-.absolute-div{
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     display: flex;
@@ -303,17 +296,65 @@ font-size: 36px;
 .section7{
     display: flex;
 }
-.lastbihbox{
-    width: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .middle{
     vertical-align: middle;
 }
-
+.last-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.last-a{
+    color: #C2C7D6;
+    margin-left: 20px;
+    font-size: 24px;
+}
+.left2{
+    color: #2947A9;
+    margin-left: 16px;
+    font-size: 24px;
+}
+.bluebox2{
+    width: 384px;
+    height: 84px;
+    background-color: #2947A9;
+}
+.building-photo{
+    display: block;
+    width: 384px;
+}
+.lastbigbox{
+    width: 800px;
+    margin-left: 254px;
+    display: flex;
+    gap: 32px;
+    flex-wrap:wrap ;
+}
+.lastminibox{
+    width: 384px;
+}
+.blue-boxtitle2{
+    padding: 12px 0 12px 12px;
+    color: white;
+}
+.blue-boxparagraph2{
+    padding: 0 0 16px 12px;
+    color: white;
+}
+.last-button{
+    margin-bottom: 68px;
+    padding: 21.5px 108px;
+    background-color: #292E3D;
+    color: white;
+    border: none;
+}
+.lastbuttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
 
 
 
