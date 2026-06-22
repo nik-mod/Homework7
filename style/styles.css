@@ -23,9 +23,11 @@ header{
 .nav-a{
     color: #37393F;
     font-size: 18px;
+    font-family: 'Work Sans Regular';
 }
 .orange a{
     color: #F9995D;
+    font-family: 'Work Sans SemiBold';
 }
 .nav-ul{
     display: flex;
@@ -50,6 +52,8 @@ header{
     margin-left: 112px;
     display: flex;
     align-items: center;
+    font-family: 'Work Sans SemiBold';
+    line-height: 1;
 
 }
 .blue-box{
@@ -65,6 +69,7 @@ header{
     text-align: center;
     font-size: 20px;
     color: white;
+    font-family: 'Work Sans Bold';
 }
 .blue-box-paragraph{
     padding: 0px 0 26px;
@@ -73,6 +78,7 @@ header{
     width: 312px;
     margin: 0 auto;
     color: white;
+    font-family: 'Work Sans Regular';
 
 }
 .button{
@@ -80,6 +86,8 @@ header{
     height: 39.999984741211186px;
     background-color: #292E3D;
     color:white;
+    font-family: 'Work Sans Regular';
+    font-size: 18px;
 }
 .leftright{
     display: flex;
@@ -94,6 +102,21 @@ header{
     margin: 60px 0 50px;
     text-align: center;
     font-size: 36px;
+    font-family: 'Work Sans Bold';
+    color: #292E3D;
+}
+.reputation-title{
+    font-size: 20px ;
+    color: #3D445C;
+    font-family: 'Work Sans Bold';
+    margin: 0 0 18px 20px;
+}
+.reputation-paragraph{
+    font-size: 16px;
+    color: #858EAD;
+    font-family: 'Work Sans Regular';
+    margin: 0 18px 0 20px;
+    width: 254px;
 }
 .bestflex{
     display: flex;
@@ -116,13 +139,6 @@ header{
     font-size: 32.63333511352539px;
     padding: 21.67px 0px 19.67px 21.67px;
 }
-.reputation-title{
-    margin: 0 144px 18px 20px;
-}
-.reputation-paragraph{
-    margin: 0 18px 0 20px;
-    width: 254px;
-}
 .section3-photo{
     position: relative;
     margin: 0 auto;
@@ -139,22 +155,28 @@ header{
     width: 902px;
     height: 669px;
     margin:0 0 202px 114px;
+    
 }
 .section3-title{
     font-size: 36px;
-    padding: 50px 289px 37px 40px;
+    padding: 50px 0 37px 40px;
+    font-family: 'Work Sans Bold';
 }
 .section3-firstparagraph{
     width: 388px;
     text-align: left;
     font-size: 20px;
     margin: 0 60px 20px 40px;
+    line-height: 1;
+    font-family: 'Work Sans Regular';
 }
 .section3-secondparagraph{
     width: 388px;
     text-align: left;
     font-size: 20px;
     margin: 0 60px 74px 40px;
+    line-height: 1;
+    font-family: 'Work Sans Regular';
 }
 .more-button{
     padding: 16px 20px;
@@ -163,6 +185,8 @@ header{
     border: none;
     border-radius: 6px;
     margin: 0 229px 60px 40px ;
+    font-size: 18px;
+    font-family: 'Work Sans SemiBold';
 }
 .section4{
     background-color: #F6F8F7;
@@ -188,6 +212,8 @@ header{
     text-align: center;
     padding: 44px 0 36px;
     font-size: 36px;
+    font-family: 'Work Sans Bold';
+    color: #292E3D;
 }
 .bigdiv{
     display: flex;
@@ -210,6 +236,7 @@ header{
 }
 .icons-desc{
     font-size: 20px;
+    font-family: 'Work Sans SemiBold';
 }
 .section5{
     display: flex;
@@ -217,38 +244,49 @@ header{
 .projects{
     width: 361px;
     margin: 221px 371px 105px 212px;
-    box-shadow: 4px 4px 50px #1118270D ;
 }
 .buisness{
     width: 333px;
     margin: 0 0 87px 216px;
-    box-shadow: 4px 4px 20px #1118270D ;
+}
+.projects, .buisness{
+    box-shadow: 
+        0px 4px 6px -2px rgba(17, 24, 39, 0.05),
+        0px 12px 16px -4px rgba(17, 24, 39, 0.10);
 }
 .numbers{
     padding: 30px 0 2px 30px;
     font-size: 72px;
+    font-family: 'Work Sans SemiBold';
 }
 .years{
     padding: 0 0 30px 46px;
     color: #667299;
+    font-size: 24px;
+    font-family: 'Work Sans Regular';
 
 }
 .section5-title{
     margin: 172px  137px 40px 0;
     font-size: 60px;
     width: 359px;
+    color: #2947A9;
+    font-family: 'Work Sans Bold';
 }
 .section5-paragraph{
     color:#525B7A;
     font-size: 20px;
     width: 330px;
     margin-bottom: 67px;
+    font-family: 'Work Sans Regular';
 }
 .contact-button{
     padding: 16px 39px;
     background-color: #2947A9;
     color: white;
     border: none;
+    font-size: 18px;
+    font-family: 'Work Sans SemiBold';
 }
 .background{
         width: 100%;
@@ -270,12 +308,18 @@ header{
     color: white;
 }
 .section6-title{
-padding: 100px 0 30px 112px;
-font-size: 36px;
+    padding: 100px 0 30px 112px;
+    font-size: 36px;
+    font-family: 'Work Sans Bold';
+    line-height: 1;
 }
 .section6-paragraph{
     padding: 0 0 100px 112px;
     font-size: 24px;
+    font-family: 'Work Sans Regular';
+}
+.underline{
+    text-decoration: underline;
 }
 .consultation-button{
     background-color: transparent;
@@ -283,12 +327,14 @@ font-size: 36px;
     color: white;
     padding: 16px 20px;
     cursor: pointer;
-}
-.flexbox{
-    display: flex;
+    font-size: 18px;
+    font-family: 'Work Sans SemiBold';
 }
 .section7-title{
     margin: 0 0 40px 112px;
+    font-size: 36px;
+    color: #292E3D;
+    font-family: 'Work Sans Bold';
 }
 .last-navigation{
     margin: 0 0 0 112px;
@@ -309,11 +355,13 @@ font-size: 36px;
     color: #C2C7D6;
     margin-left: 20px;
     font-size: 24px;
+    font-family: 'Work Sans Medium';
 }
 .left2{
     color: #2947A9;
     margin-left: 16px;
     font-size: 24px;
+    font-family: 'Work Sans Bold';
 }
 .bluebox2{
     width: 384px;
@@ -337,10 +385,14 @@ font-size: 36px;
 .blue-boxtitle2{
     padding: 12px 0 12px 12px;
     color: white;
+    font-size: 20px;
+    font-family: 'Work Sans Bold';
 }
 .blue-boxparagraph2{
     padding: 0 0 16px 12px;
     color: white;
+    font-size: 18px;
+    font-family: 'Work Sans Regular';
 }
 .last-button{
     margin-bottom: 68px;
@@ -348,6 +400,8 @@ font-size: 36px;
     background-color: #292E3D;
     color: white;
     border: none;
+    font-size: 18px;
+    font-family: 'Work Sans Regular';
 }
 .lastbuttons{
     display: flex;
@@ -363,6 +417,7 @@ font-size: 36px;
     padding: 26px 0 25px 112px ;
     color: white;
     font-size: 16px;
+    font-family: 'Work Sans Regular';
 }
 
 
